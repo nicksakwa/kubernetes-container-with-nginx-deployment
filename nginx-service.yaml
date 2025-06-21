@@ -4,9 +4,9 @@ metadata:
   name: nginx-service
 spec:
   selector:
-    app: nginx
+    app: nginx # This links the service to your Nginx Deployment
   ports:
-    -protocol: TCP
-     ports: 80
-     targetPort: 80
-  type: NodePort
+    - protocol: TCP
+      port: 80 # The port on the Service
+      targetPort: 80 # The port on the Pod/container
+  type: NodePort # This exposes the service on a port on your Minikube VM
