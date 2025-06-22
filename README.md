@@ -13,6 +13,8 @@ This GitHub repository provides code for kubernetes container with the yaml lang
     ```bash
     Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.SecurityProtocolType]::Tls12; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
     ```
+* Kubernetes extension from microsoft on visual studio code
+* Google cloud code extension.
 
 ##  Installation
 * Install Kubernetes-cli with choco
