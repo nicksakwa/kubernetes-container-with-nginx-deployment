@@ -35,5 +35,20 @@ This GitHub repository provides code for kubernetes container with the yaml lang
     ```bash
     kubernetes get nodes
     ```
-
+* Run Kubectl apply
+     ```bash
+    kubectl apply -f nginx-deployment.yaml
+    ```
+* Get all deployments 
+    ```bash
+    kubectl get deployment
+    ```
+* Get all pods
+    ```bash
+    kubectl get pods
+    ```
+* Find url to access Nginx server
+    ```bash
+    minikube service nginx-service
+    ```
     
