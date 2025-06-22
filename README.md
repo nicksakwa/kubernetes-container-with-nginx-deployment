@@ -10,6 +10,9 @@ This GitHub repository provides code for kubernetes container with the yaml lang
 * Virtual machine e.g Virtual box from oracles official website: 
 * Enable Hyper-V with your windows machine and enable virtualization with BIOS from windows machine:
 * Install chocolatey 
+    ```bash
+    Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.SecurityProtocolType]::Tls12; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
+    ```
 
 ##  Installation
 * Install Kubernetes-cli with choco
